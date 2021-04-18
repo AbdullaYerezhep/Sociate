@@ -1260,11 +1260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.yerezhep\\source\\repos\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\a.yerezhep\\source\\repos\\DatingApp\\API\\API.csproj",
+      "projectPath": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\a.yerezhep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.yerezhep\\source\\repos\\DatingApp\\API\\obj\\",
+      "outputPath": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\a.yerezhep\\AppData\\Roaming\\NuGet\\NuGet.Config",

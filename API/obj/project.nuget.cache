@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OtDzRx6XqdzgCmMGB6mEn5uzjyznDeIrPxs3rNQubu/LvAXDCn8f5idYPTs5aVnkkIt1O411d3fkMl+N9zhjLA==",
+  "dgSpecHash": "iwx99YGmkyrqLR7+OoOgLniMW0CQNwwxIkBOUxFiSGuajUUz8rQeUyWhb1GiP6zt5tdc3Jx35iq3TSASnqBB4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.yerezhep\\source\\repos\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
