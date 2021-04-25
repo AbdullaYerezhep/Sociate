@@ -112,3 +112,7 @@ C:\Users\a.yerezhep\source\repos\SociateApp\API\obj\Debug\net5.0\API.dll
 C:\Users\a.yerezhep\source\repos\SociateApp\API\obj\Debug\net5.0\ref\API.dll
 C:\Users\a.yerezhep\source\repos\SociateApp\API\obj\Debug\net5.0\API.pdb
 C:\Users\a.yerezhep\source\repos\SociateApp\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\Users\a.yerezhep\source\repos\SociateApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\a.yerezhep\source\repos\SociateApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\a.yerezhep\source\repos\SociateApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\a.yerezhep\source\repos\SociateApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
