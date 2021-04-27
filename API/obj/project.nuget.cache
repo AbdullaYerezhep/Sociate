@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zUMlOJL8DtSyVk9mxBfxE6TUHFyHsFu1g8n2Awfe9sE3Al9aNi8NRKvgdBqjzEe2uznydHyqAPckhCtWeB//hw==",
+  "dgSpecHash": "eV9bbMlwZ/ycq+N3ZF/9a1vuSFtLZb+rr4Wb6amXyn+lP5C6Xh4vFCZgKQvoM+TVjj03hgf6stoXM4AjNpeAMQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
