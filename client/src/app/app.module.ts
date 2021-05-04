@@ -10,6 +10,10 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { MemberListComponent } from './members/member-list/member-list.component';
+import { ListsComponent } from './lists/lists.component';
+import { MessagesComponent } from './messages/messages.component';
+import { MemberDetailsComponent } from './members/member-details/member-details.component';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     NavComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    MemberListComponent,
+    ListsComponent,
+    MessagesComponent,
+    MemberDetailsComponent
   ],
   imports: [
     BsDropdownModule.forRoot(), 
