@@ -15,7 +15,7 @@ export class TestErrorsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  get404Error(){
+  get404Error(){  
     this.http.get(this.baseUrl + 'buggy/not-found').subscribe(response => {
       console.log(response);
     }), error => {
