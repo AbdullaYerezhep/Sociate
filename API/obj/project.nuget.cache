@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hqX4v2CbvZIuVuEc/fm4tsGni/WT6/0ZnBmnAhCczS0ICidBUwVp7FEenf9XNEoIfCeAF8xhPbAT4marnblWdw==",
+  "dgSpecHash": "TaejDKPrJmm1VfIuY994NBqz7UJgBAKhNf490MaoENO3KAG5YGX7QJoo8rZKKK9VBL5AvBsJNfCNoHuBFnjUZQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\a.yerezhep\\source\\repos\\SociateApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\a.yerezhep\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
