@@ -4,7 +4,7 @@ using API.Entities;
 
 namespace API.DTOs
 {
-    public class DTOMember
+    public class MemberDto
     {
         public int ID { get; set; }
         public string UserName { get; set; }
