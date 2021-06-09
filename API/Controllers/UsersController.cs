@@ -40,7 +40,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet("{username}")]
+        [HttpGet("{username}", Name = "GetUser")]
         public async Task<ActionResult<DTOMember>> GetUser(string username)
         {
             return await _userRepository.GetMemberAsync(username);
@@ -83,10 +83,32 @@ namespace API.Controllers
             user.Photos.Add(photo);
              
             if(await _userRepository.SaveAllAsync())
-                return _mapper.Map<PhotoDto>(photo);
+            {
+                return CreatedAtRoute("GetUser", new{username = user.UserName}, _mapper.Map<PhotoDto>(photo));
+            }
                 
             return BadRequest("Problem adding photo");
             
+        }
+
+        [HttpGet("set-main-photo/{photoId}")]
+        public async Task<ActionResult> SetMainPhoto(int photoId)
+        {
+                var user = await _userRepository.GetUserByUsernameAsync(User.GetUsername());
+
+                var photo = user.Photos.FirstOrDefault( x => x.id == photoId );
+
+                if(photo.IsMain) return BadRequest("This is already your main photo");
+
+                var currentMain = user.Photos.FirstOrDefault( x => x.IsMain );
+
+                if(currentMain != null) currentMain.IsMain = false;
+
+                photo.IsMain = true; 
+
+                if(await _userRepository.SaveAllAsync()) return NoContent();
+
+                return BadRequest("Failed to set new photo");
         }
     }
 }
