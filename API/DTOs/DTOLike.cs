@@ -1,6 +1,6 @@
 namespace API.DTOs
 {
-    public class LikeDto
+    public class DTOLike
     {
         public int Id { get; set; }
         public string Username { get; set; }
