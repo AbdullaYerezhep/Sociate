@@ -5,7 +5,6 @@ namespace API.Entities
     [Table("Photos")]
     public class Photo
     {
-        internal bool isMain;
 
         public int Id { get; set; }
         public string Url { get; set; }

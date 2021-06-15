@@ -17,7 +17,6 @@ namespace API.Data
         {
             _context = context;
         }
-
         public async Task<UserLike> GetUserLike(int sourceUserId, int likedUserId)
         {
             return await _context.Likes.FindAsync(sourceUserId, likedUserId);
@@ -25,7 +24,7 @@ namespace API.Data
 
         public async Task<PagedList<DTOLike>> GetUserLikes(LikesParams likesParams)
         {
-            var users = _context.Users.OrderBy(u => u.UserName).AsQueryable();
+           var users = _context.Users.OrderBy(u => u.UserName).AsQueryable();
             var likes = _context.Likes.AsQueryable();
 
             if (likesParams.Predicate == "liked")
@@ -50,7 +49,8 @@ namespace API.Data
                 Id = user.Id
             });
 
-            return await PagedList<DTOLike>.CreateAsync(likedUsers, likesParams.PageNumber, likesParams.PageSize);
+            return await PagedList<DTOLike>.CreateAsync(likedUsers, 
+                likesParams.PageNumber, likesParams.PageSize);
         }
 
         public async Task<AppUser> GetUserWithLikes(int userId)
@@ -59,10 +59,6 @@ namespace API.Data
                 .Include(x => x.LikedUsers)
                 .FirstOrDefaultAsync(x => x.Id == userId);
         }
-
-        Task<PagedList<DTOLike>> ILikesRepository.GetUserLikes(LikesParams likesParams)
-        {
-            throw new System.NotImplementedException();
-        }
     }
+
 }
